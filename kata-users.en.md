@@ -9,20 +9,17 @@ Based on the slides by [Jorge Sánchez (aka xurxodev)](https://xurxodev.com/).
 - A user must contain as mandatory the following fields:
   - Name.
   - Email. 
-  - Password. 
-  
+  - Password.   
 - The email must be a valid email. That means it:
- - Contains a username.
- - Contains a host name.
- - Contains the host's domain.
- - Has the username separated from the host name by an '@' character.
- - Has the host name separated from the host's domain by a period ('.').
-
+  - Contains a username.
+  - Contains a host name.
+  - Contains the host's domain.
+  - Has the username separated from the host name by an '@' character.
+  - Has the host name separated from the host's domain by a period ('.').
 - The password must:
- - Be at least 8 characters long.
- - Contain at least one letter.
- - Contain at least one number.
-
+  - Be at least 8 characters long.
+  - Contain at least one letter.
+  - Contain at least one number.
 - The app should show an error if someone tries to add two users with the same email.
 
 **Bonus**
