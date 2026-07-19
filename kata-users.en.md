@@ -6,11 +6,11 @@ Based on the slides by [Jorge Sánchez (aka xurxodev)](https://xurxodev.com/).
 ### Functional requirements
 - Show list of users.
 - Add a new user.
-- A user must contain:
+- A user must contain as mandatory the following fields:
   - Name.
   - Email. 
   - Password. 
-  as mandatory fields.
+  
 - The email must be a valid email. That means it:
  - Contains a username.
  - Contains a host name.
@@ -26,14 +26,12 @@ Based on the slides by [Jorge Sánchez (aka xurxodev)](https://xurxodev.com/).
 - The app should show an error if someone tries to add two users with the same email.
 
 **Bonus**
-- Add the address, made up of: 
- - Address
+- Add the address as part of the information required for the user. The address is made up of: 
    - Street.
    - Number. 
    - [Optionally] floor and/or door.
- - Postal code.
- - City.
- as part of the information required for the user.
+   - Postal code.
+   - City.
 - Only one user per domain may exist (1 user with gmail.com, etc.).
 
 ### Development platform
